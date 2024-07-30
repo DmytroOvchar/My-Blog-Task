@@ -2,6 +2,7 @@ import "./globals.css";
 import { PrismicPreview } from "@prismicio/next";
 import { repositoryName } from "@/prismicio";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function RootLayout({
   children,
@@ -10,9 +11,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="max-w-[1216px] mx-auto">
+      <body>
         <Header />
         {children}
+        <Footer />
       </body>
       <PrismicPreview repositoryName={repositoryName} />
     </html>
