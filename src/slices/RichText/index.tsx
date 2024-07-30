@@ -30,7 +30,7 @@ const RichText = ({ slice }: RichTextProps): JSX.Element => {
   return (
     <section className={styles.richtext}>
       <h1>Welcome!</h1>
-      <div style={{ backgroundColor: "red" }}>
+      <div>
         <PrismicRichText
           field={slice.primary.content}
           components={components}
