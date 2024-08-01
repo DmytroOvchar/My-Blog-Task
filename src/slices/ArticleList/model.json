@@ -1,0 +1,79 @@
+{
+  "id": "article_list",
+  "type": "SharedSlice",
+  "name": "ArticleList",
+  "description": "ArticleList",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "articles": {
+          "type": "Group",
+          "config": {
+            "label": "articles",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "author": {
+                "type": "Text",
+                "config": {
+                  "label": "author ",
+                  "placeholder": ""
+                }
+              },
+              "date": {
+                "type": "Date",
+                "config": {
+                  "label": "date",
+                  "placeholder": ""
+                }
+              },
+              "category_name": {
+                "type": "Text",
+                "config": {
+                  "label": "category_name",
+                  "placeholder": ""
+                }
+              },
+              "category_color": {
+                "type": "Text",
+                "config": {
+                  "label": "category_color",
+                  "placeholder": ""
+                }
+              },
+              "item_image": {
+                "type": "Image",
+                "config": {
+                  "label": "item_image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "author_image": {
+                "type": "Image",
+                "config": {
+                  "label": "author_image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

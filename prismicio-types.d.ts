@@ -4,7 +4,7 @@ import type * as prismic from "@prismicio/client";
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
-type PageDocumentDataSlicesSlice = never;
+type PageDocumentDataSlicesSlice = ArticleListSlice;
 
 /**
  * Content for Page documents
@@ -78,6 +78,128 @@ export type PageDocument<Lang extends string = string> =
 
 export type AllDocumentTypes = PageDocument;
 
+/**
+ * Item in *ArticleList → Default → Primary → articles*
+ */
+export interface ArticleListSliceDefaultPrimaryArticlesItem {
+  /**
+   * title field in *ArticleList → Default → Primary → articles*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article_list.default.primary.articles[].title
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  title: prismic.KeyTextField;
+
+  /**
+   * author  field in *ArticleList → Default → Primary → articles*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article_list.default.primary.articles[].author
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  author: prismic.KeyTextField;
+
+  /**
+   * date field in *ArticleList → Default → Primary → articles*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article_list.default.primary.articles[].date
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  date: prismic.DateField;
+
+  /**
+   * category_name field in *ArticleList → Default → Primary → articles*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article_list.default.primary.articles[].category_name
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  category_name: prismic.KeyTextField;
+
+  /**
+   * category_color field in *ArticleList → Default → Primary → articles*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article_list.default.primary.articles[].category_color
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  category_color: prismic.KeyTextField;
+
+  /**
+   * item_image field in *ArticleList → Default → Primary → articles*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article_list.default.primary.articles[].item_image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  item_image: prismic.ImageField<never>;
+
+  /**
+   * author_image field in *ArticleList → Default → Primary → articles*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article_list.default.primary.articles[].author_image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  author_image: prismic.ImageField<never>;
+}
+
+/**
+ * Primary content in *ArticleList → Default → Primary*
+ */
+export interface ArticleListSliceDefaultPrimary {
+  /**
+   * articles field in *ArticleList → Default → Primary*
+   *
+   * - **Field Type**: Group
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article_list.default.primary.articles[]
+   * - **Documentation**: https://prismic.io/docs/field#group
+   */
+  articles: prismic.GroupField<
+    Simplify<ArticleListSliceDefaultPrimaryArticlesItem>
+  >;
+}
+
+/**
+ * Default variation for ArticleList Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ArticleListSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<ArticleListSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *ArticleList*
+ */
+type ArticleListSliceVariation = ArticleListSliceDefault;
+
+/**
+ * ArticleList Shared Slice
+ *
+ * - **API ID**: `article_list`
+ * - **Description**: ArticleList
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ArticleListSlice = prismic.SharedSlice<
+  "article_list",
+  ArticleListSliceVariation
+>;
+
 declare module "@prismicio/client" {
   interface CreateClient {
     (
@@ -92,6 +214,11 @@ declare module "@prismicio/client" {
       PageDocumentData,
       PageDocumentDataSlicesSlice,
       AllDocumentTypes,
+      ArticleListSlice,
+      ArticleListSliceDefaultPrimaryArticlesItem,
+      ArticleListSliceDefaultPrimary,
+      ArticleListSliceVariation,
+      ArticleListSliceDefault,
     };
   }
 }
