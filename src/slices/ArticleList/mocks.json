@@ -1,0 +1,374 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"articles": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "The Impact of Technology on the Workplace: How Technology is Changing"
+								}
+							],
+							[
+								"author",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "prepare",
+									"type": "Text"
+								}
+							],
+							[
+								"date",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Date",
+									"value": "2023-10-06"
+								}
+							],
+							[
+								"item_image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+										"width": 4000,
+										"height": 6000
+									},
+									"url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+									"width": 4000,
+									"height": 6000,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"credits": null,
+									"alt": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"author_image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+										"width": 3810,
+										"height": 5715
+									},
+									"url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117",
+									"width": 3810,
+									"height": 5715,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"credits": null,
+									"alt": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"category_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "nobody",
+									"type": "Text"
+								}
+							],
+							[
+								"category_color",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "difficult",
+									"type": "Text"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"item_image",
+								{
+									"url": "https://images.unsplash.com/photo-1616963738682-9df1389e5932?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw3fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MjI1MDkwNzF8MA&ixlib=rb-4.0.3&q=85",
+									"alt": "close up photo of green fruits",
+									"origin": {
+										"id": "XBMe5NM4ZHs",
+										"url": "https://images.unsplash.com/photo-1616963738682-9df1389e5932?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw3fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MjI1MDkwNzF8MA&ixlib=rb-4.0.3&q=85",
+										"width": 3523,
+										"height": 2349
+									},
+									"width": 3523,
+									"height": 2349,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"author_image",
+								{
+									"url": "https://images.unsplash.com/photo-1597714026720-8f74c62310ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MjI1MDkwNzF8MA&ixlib=rb-4.0.3&q=85",
+									"alt": "orange fruits under blue sky during daytime",
+									"origin": {
+										"id": "eaOjEz8746k",
+										"url": "https://images.unsplash.com/photo-1597714026720-8f74c62310ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MjI1MDkwNzF8MA&ixlib=rb-4.0.3&q=85",
+										"width": 5688,
+										"height": 3792
+									},
+									"width": 5688,
+									"height": 3792,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"category_name",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "techology"
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "The Impact of Technology on the Workplace: How Technology is Changing"
+								}
+							],
+							[
+								"date",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Date",
+									"value": "2024-08-22"
+								}
+							],
+							[
+								"author",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Jason Francisco"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "The Impact of Technology on the Workplace: How Technology is Changing"
+								}
+							],
+							[
+								"author",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Dmytro Ovchar"
+								}
+							],
+							[
+								"date",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Date",
+									"value": "2024-08-23"
+								}
+							],
+							[
+								"category_name",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "workshop"
+								}
+							],
+							[
+								"item_image",
+								{
+									"__TYPE__": "ImageContent",
+									"url": "https://images.unsplash.com/photo-1704960945989-3aef8ee6aa2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyNTA5MDcxfDA&ixlib=rb-4.0.3&q=85",
+									"alt": "a couple of lemons sitting on top of a table",
+									"origin": {
+										"id": "RVo8fWNBBvQ",
+										"url": "https://images.unsplash.com/photo-1704960945989-3aef8ee6aa2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyNTA5MDcxfDA&ixlib=rb-4.0.3&q=85",
+										"width": 6000,
+										"height": 4000
+									},
+									"width": 6000,
+									"height": 4000,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"thumbnails": {}
+								}
+							],
+							[
+								"author_image",
+								{
+									"__TYPE__": "ImageContent",
+									"url": "https://images.unsplash.com/photo-1661882002589-d93b357a2ffc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMXx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyNTA5MDcxfDA&ixlib=rb-4.0.3&q=85",
+									"alt": "a pile of oranges",
+									"origin": {
+										"id": "ASOGZQvLKt0",
+										"url": "https://images.unsplash.com/photo-1661882002589-d93b357a2ffc?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMXx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyNTA5MDcxfDA&ixlib=rb-4.0.3&q=85",
+										"width": 3648,
+										"height": 2736
+									},
+									"width": 3648,
+									"height": 2736,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"thumbnails": {}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "The Impact of Technology on the Workplace: How Technology is Changing"
+								}
+							],
+							[
+								"author",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Kite Wronger"
+								}
+							],
+							[
+								"date",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Date",
+									"value": "2024-08-07"
+								}
+							],
+							[
+								"category_name",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "pice"
+								}
+							],
+							[
+								"item_image",
+								{
+									"__TYPE__": "ImageContent",
+									"url": "https://images.unsplash.com/photo-1655504481489-792e108a2c07?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMnx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyNTA5MDcxfDA&ixlib=rb-4.0.3&q=85",
+									"alt": "background pattern",
+									"origin": {
+										"id": "Oxn_UCIfwFo",
+										"url": "https://images.unsplash.com/photo-1655504481489-792e108a2c07?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyMnx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyNTA5MDcxfDA&ixlib=rb-4.0.3&q=85",
+										"width": 3428,
+										"height": 4285
+									},
+									"width": 3428,
+									"height": 4285,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"thumbnails": {}
+								}
+							],
+							[
+								"author_image",
+								{
+									"__TYPE__": "ImageContent",
+									"url": "https://images.unsplash.com/photo-1704960945993-ef988f2a17f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyNTA5MDcxfDA&ixlib=rb-4.0.3&q=85",
+									"alt": "a yellow lemon sitting on top of a reflective surface",
+									"origin": {
+										"id": "KufsPJyG6Ig",
+										"url": "https://images.unsplash.com/photo-1704960945993-ef988f2a17f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyNTA5MDcxfDA&ixlib=rb-4.0.3&q=85",
+										"width": 6000,
+										"height": 4000
+									},
+									"width": 6000,
+									"height": 4000,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"thumbnails": {}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
