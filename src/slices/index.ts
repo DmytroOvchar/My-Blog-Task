@@ -2,8 +2,4 @@
 
 import dynamic from "next/dynamic";
 
-export const components = {
-  hero: dynamic(() => import("./Hero")),
-  rich_text: dynamic(() => import("./RichText")),
-  section: dynamic(() => import("./Section")),
-};
+export const components = {};
