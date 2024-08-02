@@ -3,6 +3,7 @@ import { PrismicPreview } from "@prismicio/next";
 import { repositoryName } from "@/prismicio";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageTitle from "@/components/PageTitle";
 
 export default function RootLayout({
   children,
@@ -13,6 +14,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
+        <PageTitle />
         {children}
         <Footer />
       </body>
