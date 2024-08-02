@@ -16,6 +16,7 @@ export type ArticleListProps = SliceComponentProps<Content.ArticleListSlice>;
 const ArticleList = ({ slice }: ArticleListProps): JSX.Element => {
   return (
     <section
+    className="mb-20"
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
